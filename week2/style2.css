@@ -1,0 +1,56 @@
+/* body{
+    color: red;
+} */
+
+/* example of media query, makes page responsive to screen size */
+/* @media (max-width: 500px){
+    body{
+        color:blue;
+    }
+} */
+
+/* .desktop, .mobile{
+    display: none;
+}
+
+@media (orientation: portrait){
+    .title{
+        color:yellow;
+        background-color: black;
+        text-align: center;
+        padding: 5%;
+    }
+.mobile{
+    display:inline-block;
+}
+}
+
+@media (orientation: landscape){
+    .subtitle{
+        color:green;
+        background-color: orange;
+        text-align: center;
+        padding: 5%;
+    }
+} */
+
+
+/* mobile first*/
+body{
+    background-color: green;
+
+}
+@media (min-width: 600px){
+    body{
+        background-color: blue;
+    }
+}
+
+@media (min-width: 900px){
+    body{
+        background-color:yellow;
+    }
+}
+
+
+

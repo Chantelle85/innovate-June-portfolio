@@ -1,0 +1,27 @@
+body{
+    background-color: white;
+}
+
+.desktop, .mobile {
+    display: none;
+}
+
+@media (max-width: 500px){
+}
+
+@media (orientation: landscape){
+    .desktop {
+        display: inline-block;
+    }
+}
+
+@media (orientation: portrait){
+    .mobile {
+        display: inline-block;
+    }
+    body{
+        color:white;
+        background-color:black;
+    }
+}
+
