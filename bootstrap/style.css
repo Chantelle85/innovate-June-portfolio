@@ -1,0 +1,50 @@
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.button1{
+background-color: aliceblue;
+padding: 15px;
+border: 2px solid black
+}
+
+.button2{
+    background-color: aliceblue;
+    padding: 15px;
+    border: 2px solid green
+    /* transition-duration: 0.5s; */
+}
+
+.button2:hover{
+    color: white;
+    background-color: rgb(24, 106, 39);
+    padding: 15px;
+    border: 2px solid black
+}
+
+.button3{
+    background-color: aliceblue;
+    padding: 15px;
+    border: 2px solid green
+}
+
+.button3:hover{
+    color: white;
+    background-color: rgb(24, 106, 39);
+    padding: 15px;
+    border: 2px solid black
+    /* cursor: pointer; */
+}
+
+.button3:active{
+    transform: translateY(5px)
+}
+
+.button4{
+    background-color: red;
+    padding: 15px;
+    border: 2px solid black;
+    opacity: 0.5;
+    cursor: not-allowed;
+}
